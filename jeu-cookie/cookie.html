@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Macarons Clicker</title>
+    <link rel="stylesheet" href="cookie.css">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet"> 
+    <script src="cookie.js"></script>
+
+
+</head>
+<body>
+    <div class="color">
+        <div class="partie1">
+            <button id="score" onclick="augmente()">
+                <img src="../jeu-cookie/clik.jpeg"> 
+            </button>
+                    
+            <h4>Votre score :</h4>
+            
+                
+            <div id="affiche">0</div>
+            
+            <!-- fin #affiche -->
+
+            <div id="sauver-charger">
+                <button id="sauver" href="#" onclick="sauver()">Sauver</button>
+                <button id="charger" href="#" onclick="charger()">Charger</button>
+            </div>
+            
+            <!-- fin #sauver-charger -->
+            
+            <div class="partie2">
+                    
+                <div id="multiplier">Prochain multiplicateur : x 2 pour : 10 points.</div>
+                
+                <!-- fin #multiplier -->
+
+                    <button id="Multiplicateur" onclick="multiplicateur()">Multiplicateur:</button>
+            
+            </div><!-- fin .partie2 -->
+            
+            <div class="partie3">
+                <button id="Cliker" onclick="clicker()">Auto-Click à 200pnts</button>
+            
+                                
+                <div id="bonusTemps">
+                    <button id="bonus" onclick="Bonus()">Top Bonus</button>
+
+                </div>
+                
+                <!-- fin #bonus -->
+            </div>
+            
+            <!-- fin .partie3 -->
+        </div>
+        
+        <!-- fin .partie -->
+    </div>    
+</body>
+</html>

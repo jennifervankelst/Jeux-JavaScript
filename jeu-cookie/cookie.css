@@ -1,0 +1,82 @@
+
+
+body {
+
+    background-image: url('../jeu-cookie/macarons.jpeg');
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.color {
+
+    background-color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.9);
+    margin-top: 40px;
+    margin-left: 440px;
+    margin-right: 440px;
+    margin-bottom: 10px;
+}
+
+#score {
+    margin-top: 100px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+#affiche {
+
+    margin-top: 40px;    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FF8000;
+    line-height: 6em;
+    color: white;
+}
+
+#sauver-charger {
+
+    margin-top: 40px;
+    
+}
+
+button {
+
+    font-size: 30px;
+    background-color: #FF8000;
+    border: none;
+    color: #FFFFFF ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#multiplier {
+
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#Multiplicateur {
+
+    margin-top: 40px;
+}
+
+#Cliker {
+
+    margin-top: 30px;
+}
+
+#bonusTemps {
+
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
